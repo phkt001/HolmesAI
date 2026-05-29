@@ -5,7 +5,7 @@ async function chat() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer YOUR_API_KEY"
+      "Authorization": "Bearer sk-9V87aJ2yTdCmKp79f3qjiqP1cgQrfcF2ziUpWiGHR8qd"
     },
     body: JSON.stringify({
       model: "claude-sonnet-4-6",
